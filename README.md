@@ -1,14 +1,14 @@
 # next-capitalize
 > Capitalize for next.
 
-## install:
-```shell
-npm install -S afeiship/next-capitalize --registry=https://registry.npm.taobao.org
+## installation
+```bash
+npm install -S @feizheng/next-capitalize
 ```
 
-## usage:
+## usage
 ```js
-import 'next-capitalize'
+import '@feizheng/next-capitalize';
 
 nx.capitalize('fontSize')
 // FontSize
