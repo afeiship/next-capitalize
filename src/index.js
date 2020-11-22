@@ -1,8 +1,8 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
-  nx.capitalize = function(inString) {
+  nx.capitalize = function (inString) {
     return inString.charAt(0).toUpperCase() + inString.slice(1);
   };
 

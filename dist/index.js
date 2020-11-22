@@ -1,17 +1,17 @@
 /*!
- * name: @feizheng/next-capitalize
+ * name: @jswork/next-capitalize
  * description: Capitalize for next.
- * url: https://github.com/afeiship/next-capitalize
+ * homepage: https://github.com/afeiship/next-capitalize
  * version: 1.0.0
- * date: 2019-12-18 20:04:25
+ * date: 2020-11-22 17:48:49
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
-  nx.capitalize = function(inString) {
+  nx.capitalize = function (inString) {
     return inString.charAt(0).toUpperCase() + inString.slice(1);
   };
 
@@ -19,5 +19,3 @@
     module.exports = nx.capitalize;
   }
 })();
-
-//# sourceMappingURL=next-capitalize.js.map
