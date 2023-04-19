@@ -1,3 +1,3 @@
 interface NxStatic {
-  // your codes goes here.
+  capitalize: (inStr: string) => string;
 }
