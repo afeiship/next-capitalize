@@ -1,9 +1,7 @@
-(function () {
-  require('../src');
+require('../src');
 
-  describe('api.basic test', () => {
-    test('nx.capitalize', function () {
-      expect(nx.capitalize('abc')).toBe('Abc');
-    });
+describe('api.basic test', () => {
+  test('nx.capitalize', function () {
+    expect(nx.capitalize('abc')).toBe('Abc');
   });
-})();
+});
