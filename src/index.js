@@ -4,7 +4,7 @@ nx.capitalize = function (inString) {
   return inString.charAt(0).toUpperCase() + inString.slice(1);
 };
 
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
   module.exports = nx.capitalize;
 }
 
